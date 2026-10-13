@@ -1,0 +1,780 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Royal Cuts Premium Barbershop">
+  <title>Royal Cuts | Premium Barbershop</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="site-header" id="header">
+  <nav class="navbar container" aria-label="Main navigation">
+
+    <a href="#home" class="logo">
+      <span class="logo-icon">RC</span>
+      <span>ROYAL <strong>CUTS</strong></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" type="button"
+      aria-label="Open navigation" aria-expanded="false"
+      aria-controls="navLinks">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#team" class="nav-link">Our Barbers</a>
+      <a href="#reviews" class="nav-link">Reviews</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#booking" class="btn btn-gold nav-book">Book Now</a>
+    </div>
+
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <span class="eyebrow">THE ART OF GROOMING</span>
+
+      <h1>
+        LOOK SHARP
+        <br>
+        <em>FEEL ROYAL</em>
+      </h1>
+
+      <p>
+        Where timeless tradition meets modern style
+        Experience precision cuts and expert grooming
+        in an atmosphere made for gentlemen
+      </p>
+
+      <div class="hero-actions">
+        <a href="#booking" class="btn btn-gold">
+          BOOK YOUR EXPERIENCE
+        </a>
+
+        <a href="#services" class="btn btn-outline">
+          EXPLORE SERVICES
+        </a>
+      </div>
+
+      <div class="hero-bottom">
+        <span>EST 2015</span>
+        <span>PRECISION STYLE CONFIDENCE</span>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down">
+      <span>SCROLL TO EXPLORE</span>
+      <span aria-hidden="true">↓</span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="intro section-padding" id="about">
+    <div class="container intro-grid">
+
+      <div class="intro-image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1100&q=85"
+          data-fallback="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1100"
+          alt="Professional barbershop grooming"
+          loading="lazy">
+
+        <div class="image-stamp">
+          <strong>10+</strong>
+          <span>YEARS OF<br>CRAFTSMANSHIP</span>
+        </div>
+      </div>
+
+      <div class="intro-text">
+        <span class="eyebrow">WELCOME TO ROYAL CUTS</span>
+
+        <h2 class="section-title">
+          MORE THAN A CUT
+          <br>
+          <em>IT IS A STATEMENT</em>
+        </h2>
+
+        <div class="gold-line"></div>
+
+        <p>
+          At Royal Cuts we believe a great haircut is
+          more than a service
+          It is confidence and character
+          with exceptional attention to detail
+        </p>
+
+        <p>
+          Our barbers combine traditional techniques
+          with contemporary trends to deliver a
+          personalized grooming experience
+        </p>
+
+        <div class="intro-features">
+          <div>✦ Master Barbers</div>
+          <div>✦ Premium Products</div>
+          <div>✦ Relaxed Atmosphere</div>
+          <div>✦ Attention to Detail</div>
+        </div>
+
+        <a href="#services" class="text-link">
+          DISCOVER OUR SERVICES
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- STATISTICS -->
+
+  <section class="stats-section">
+    <div class="container stats-grid">
+
+      <div class="stat">
+        <strong data-count="10" data-suffix="+">10+</strong>
+        <span>YEARS OF EXPERIENCE</span>
+      </div>
+
+      <div class="stat">
+        <strong data-count="5000" data-suffix="+">5000+</strong>
+        <span>HAPPY CLIENTS</span>
+      </div>
+
+      <div class="stat">
+        <strong data-count="4" data-suffix="">4</strong>
+        <span>EXPERT BARBERS</span>
+      </div>
+
+      <div class="stat">
+        <strong data-count="100" data-suffix="%">100%</strong>
+        <span>DEDICATION TO STYLE</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+
+  <section class="services section-padding" id="services">
+    <div class="container">
+
+      <div class="section-heading centered">
+        <span class="eyebrow">OUR SPECIALTIES</span>
+        <h2 class="section-title">
+          THE GROOMING <em>MENU</em>
+        </h2>
+        <p>
+          Expert care and exceptional attention
+          to every detail
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card">
+          <div class="service-image">
+            <img
+              src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85"
+              data-fallback="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=900"
+              alt="Signature haircut"
+              loading="lazy">
+          </div>
+
+          <div class="service-content">
+            <span class="service-number">01 SIGNATURE</span>
+
+            <div class="service-title-row">
+              <h3>Signature Haircut</h3>
+              <span>$35</span>
+            </div>
+
+            <p>
+              A tailored haircut with precise styling
+              and a clean professional finish
+            </p>
+
+            <span class="service-duration">45 MIN</span>
+
+            <a href="#booking" class="btn btn-gold service-book"
+              data-service="Signature Haircut">
+              BOOK THIS SERVICE
+            </a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-image">
+            <img
+              src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85"
+              data-fallback="https://images.pexels.com/photos/3998417/pexels-photo-3998417.jpeg?auto=compress&cs=tinysrgb&w=900"
+              alt="Beard sculpting"
+              loading="lazy">
+          </div>
+
+          <div class="service-content">
+            <span class="service-number">02 CLASSIC</span>
+
+            <div class="service-title-row">
+              <h3>Beard Sculpting</h3>
+              <span>$25</span>
+            </div>
+
+            <p>
+              Expert beard shaping and detailing
+              with premium conditioning
+            </p>
+
+            <span class="service-duration">30 MIN</span>
+
+            <a href="#booking" class="btn btn-gold service-book"
+              data-service="Beard Sculpting">
+              BOOK THIS SERVICE
+            </a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-image">
+            <img
+              src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=900"
+              data-fallback="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85"
+              alt="Premium barber experience"
+              loading="lazy">
+          </div>
+
+          <div class="service-content">
+            <span class="service-number">03 PREMIUM</span>
+
+            <div class="service-title-row">
+              <h3>The Royal Package</h3>
+              <span>$65</span>
+            </div>
+
+            <p>
+              The ultimate haircut and beard grooming
+              experience with premium finishing
+            </p>
+
+            <span class="service-duration">75 MIN</span>
+
+            <a href="#booking" class="btn btn-gold service-book"
+              data-service="The Royal Package">
+              BOOK THIS SERVICE
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="services-note">
+        Demo prices for portfolio presentation
+      </p>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+
+  <section class="experience">
+    <div class="experience-image"></div>
+    <div class="experience-shade"></div>
+
+    <div class="container experience-content">
+      <span class="eyebrow">THE ROYAL EXPERIENCE</span>
+
+      <h2>
+        GOOD STYLE
+        <br>
+        NEVER GOES <em>OUT</em>
+      </h2>
+
+      <p>
+        Take your seat and leave the ordinary behind
+      </p>
+
+      <a href="#booking" class="btn btn-gold">
+        RESERVE YOUR CHAIR
+      </a>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+
+  <section class="gallery section-padding" id="gallery">
+    <div class="container">
+
+      <div class="section-heading split-heading">
+        <div>
+          <span class="eyebrow">OUR WORK</span>
+
+          <h2 class="section-title">
+            THE ART OF <em>DETAIL</em>
+          </h2>
+        </div>
+
+        <p>
+          Discover the craftsmanship and confidence
+          behind every great look
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <button class="gallery-item gallery-tall"
+          type="button" aria-label="View gallery image 1">
+          <img
+            src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            data-fallback="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1000&q=85"
+            alt="Premium barbershop interior"
+            loading="lazy">
+          <span>VIEW IMAGE</span>
+        </button>
+
+        <button class="gallery-item"
+          type="button" aria-label="View gallery image 2">
+          <img
+            src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85"
+            data-fallback="https://images.pexels.com/photos/3998417/pexels-photo-3998417.jpeg?auto=compress&cs=tinysrgb&w=900"
+            alt="Barber at work"
+            loading="lazy">
+          <span>VIEW IMAGE</span>
+        </button>
+
+        <button class="gallery-item"
+          type="button" aria-label="View gallery image 3">
+          <img
+            src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85"
+            data-fallback="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=900"
+            alt="Beard grooming"
+            loading="lazy">
+          <span>VIEW IMAGE</span>
+        </button>
+
+        <button class="gallery-item"
+          type="button" aria-label="View gallery image 4">
+          <img
+            src="https://images.pexels.com/photos/3998417/pexels-photo-3998417.jpeg?auto=compress&cs=tinysrgb&w=900"
+            data-fallback="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85"
+            alt="Professional grooming"
+            loading="lazy">
+          <span>VIEW IMAGE</span>
+        </button>
+
+        <button class="gallery-item"
+          type="button" aria-label="View gallery image 5">
+          <img
+            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85"
+            data-fallback="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=900"
+            alt="Barbershop atmosphere"
+            loading="lazy">
+          <span>VIEW IMAGE</span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR TEAM -->
+
+  <section class="team section-padding" id="team">
+    <div class="container">
+
+      <div class="section-heading centered">
+        <span class="eyebrow">MEET THE ARTISTS</span>
+
+        <h2 class="section-title">
+          THE HANDS BEHIND <em>THE CRAFT</em>
+        </h2>
+
+        <p>
+          Passionate professionals dedicated to
+          the art of modern grooming
+        </p>
+      </div>
+
+      <div class="team-grid">
+
+        <article class="team-card">
+          <div class="team-photo">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85"
+              alt="Illustrative portrait of James Carter"
+              loading="lazy">
+          </div>
+          <h3>James Carter</h3>
+          <p>MASTER BARBER</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo">
+            <img
+              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=85"
+              alt="Illustrative portrait of Marcus Reed"
+              loading="lazy">
+          </div>
+          <h3>Marcus Reed</h3>
+          <p>FADE SPECIALIST</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo">
+            <img
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=700&q=85"
+              alt="Illustrative portrait of Daniel Brooks"
+              loading="lazy">
+          </div>
+          <h3>Daniel Brooks</h3>
+          <p>GROOMING EXPERT</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=85"
+              alt="Illustrative portrait of Alex Morgan"
+              loading="lazy">
+          </div>
+          <h3>Alex Morgan</h3>
+          <p>STYLE DIRECTOR</p>
+        </article>
+
+      </div>
+
+      <p class="demo-disclaimer">
+        Portfolio demo with illustrative team profiles
+      </p>
+
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+
+  <section class="testimonials section-padding" id="reviews">
+    <div class="container">
+
+      <div class="section-heading centered">
+        <span class="eyebrow">CLIENT STORIES</span>
+
+        <h2 class="section-title">
+          WORDS OF <em>CONFIDENCE</em>
+        </h2>
+      </div>
+
+      <div class="testimonial-slider">
+
+        <div class="testimonial-slide active">
+          <span class="stars">★★★★★</span>
+
+          <blockquote>
+            A fantastic grooming experience from start
+            to finish with exceptional attention to detail
+          </blockquote>
+
+          <strong>MICHAEL R</strong>
+          <small>ILLUSTRATIVE REVIEW</small>
+        </div>
+
+        <div class="testimonial-slide">
+          <span class="stars">★★★★★</span>
+
+          <blockquote>
+            A clean stylish space with a great atmosphere
+            and a haircut tailored to your personality
+          </blockquote>
+
+          <strong>DAVID L</strong>
+          <small>ILLUSTRATIVE REVIEW</small>
+        </div>
+
+        <div class="testimonial-slide">
+          <span class="stars">★★★★★</span>
+
+          <blockquote>
+            Premium care and excellent craftsmanship
+            make every visit feel special
+          </blockquote>
+
+          <strong>CHRIS T</strong>
+          <small>ILLUSTRATIVE REVIEW</small>
+        </div>
+
+        <div class="slider-controls">
+          <button id="prevReview" type="button"
+            aria-label="Previous review">←</button>
+
+          <span id="reviewCounter">01 / 03</span>
+
+          <button id="nextReview" type="button"
+            aria-label="Next review">→</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+
+  <section class="booking section-padding" id="booking">
+    <div class="container booking-grid">
+
+      <div class="booking-intro">
+        <span class="eyebrow">YOUR NEXT GREAT LOOK</span>
+
+        <h2 class="section-title">
+          YOUR CHAIR
+          <br>
+          IS <em>WAITING</em>
+        </h2>
+
+        <p>
+          Great style starts with a simple step
+          Choose your service and prepare your
+          appointment request
+        </p>
+
+        <div class="booking-perks">
+          <p>✦ Personal Grooming Consultation</p>
+          <p>✦ Expert Barbers and Premium Care</p>
+          <p>✦ Comfortable Stylish Environment</p>
+        </div>
+
+        <p class="booking-small">
+          Demo booking form for portfolio presentation
+          No real appointments are submitted
+        </p>
+      </div>
+
+      <form class="booking-form" id="bookingForm">
+
+        <span class="form-eyebrow">
+          BOOK AN APPOINTMENT
+        </span>
+
+        <h3>Reserve Your Experience</h3>
+
+        <div class="form-row">
+
+          <div class="form-field">
+            <label for="fullName">FULL NAME</label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Your full name"
+              required
+              maxlength="80"
+              autocomplete="name">
+          </div>
+
+          <div class="form-field">
+            <label for="phone">PHONE NUMBER</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Your phone number"
+              required
+              maxlength="25"
+              autocomplete="tel">
+          </div>
+
+        </div>
+
+        <div class="form-field">
+          <label for="service">SELECT SERVICE</label>
+
+          <select id="service" name="service" required>
+            <option value="">Choose your service</option>
+            <option value="Signature Haircut">
+              Signature Haircut $35
+            </option>
+            <option value="Beard Sculpting">
+              Beard Sculpting $25
+            </option>
+            <option value="The Royal Package">
+              The Royal Package $65
+            </option>
+          </select>
+        </div>
+
+        <div class="form-row">
+
+          <div class="form-field">
+            <label for="date">PREFERRED DATE</label>
+            <input
+              type="date"
+              id="date"
+              name="date"
+              required>
+          </div>
+
+          <div class="form-field">
+            <label for="time">PREFERRED TIME</label>
+
+            <select id="time" name="time" required>
+              <option value="">Choose a time</option>
+              <option value="10:00 AM">10 AM</option>
+              <option value="11:00 AM">11 AM</option>
+              <option value="12:00 PM">12 PM</option>
+              <option value="01:00 PM">1 PM</option>
+              <option value="02:00 PM">2 PM</option>
+              <option value="03:00 PM">3 PM</option>
+              <option value="04:00 PM">4 PM</option>
+              <option value="05:00 PM">5 PM</option>
+              <option value="06:00 PM">6 PM</option>
+            </select>
+          </div>
+
+        </div>
+
+        <button type="submit"
+          class="btn btn-gold form-submit">
+          PREVIEW BOOKING REQUEST
+        </button>
+
+        <p
+          class="form-message"
+          id="formMessage"
+          role="status"
+          aria-live="polite">
+        </p>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section class="contact section-padding" id="contact">
+    <div class="container contact-grid">
+
+      <div>
+        <span class="eyebrow">FIND YOUR STYLE</span>
+
+        <h2 class="section-title">
+          COME ON <em>IN</em>
+        </h2>
+
+        <p>
+          Discover a premium grooming experience
+          designed for modern gentlemen
+        </p>
+
+        <a href="#booking" class="btn btn-gold"
+          style="margin-top:25px">
+          BOOK AN APPOINTMENT
+        </a>
+      </div>
+
+      <div class="contact-details">
+
+        <div class="contact-detail">
+          <span>LOCATION</span>
+          <p>Your Barbershop Address<br>City Country</p>
+        </div>
+
+        <div class="contact-detail">
+          <span>BUSINESS HOURS</span>
+          <p>Monday to Saturday<br>10 AM to 7 PM</p>
+        </div>
+
+        <div class="contact-detail">
+          <span>CONTACT</span>
+          <p>Contact details added when launched</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer-main">
+
+      <div>
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-icon">RC</span>
+          <span>ROYAL <strong>CUTS</strong></span>
+        </a>
+
+        <p>
+          Refined style and exceptional craft
+          <br>
+          A cut above the ordinary
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#booking">Booking</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>
+        © <span id="year"></span> ROYAL CUTS
+        PORTFOLIO DEMO
+      </span>
+
+      <a href="#home">BACK TO TOP ↑</a>
+    </div>
+
+  </div>
+</footer>
+
+<!-- GALLERY LIGHTBOX -->
+
+<div class="lightbox" id="lightbox"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Gallery image preview"
+  aria-hidden="true">
+
+  <button
+    class="lightbox-close"
+    id="lightboxClose"
+    type="button"
+    aria-label="Close gallery">
+    ×
+  </button>
+
+  <img id="lightboxImage" src="" alt="">
+
+</div>
+
+</body>
+</html>
